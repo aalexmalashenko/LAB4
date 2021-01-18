@@ -1,8 +1,8 @@
 package com.company;
 
 public class Korotishka extends Krol implements Duties {
-    public Korotishka(String name){
-        super(name);
+    public Korotishka(){
+        super("коротышек");
     }
 
     @Override

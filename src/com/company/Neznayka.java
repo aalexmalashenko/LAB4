@@ -1,8 +1,8 @@
 package com.company;
 
 public class Neznayka extends Krol{
-    public Neznayka(String name){
-        super(name);
+    public Neznayka(){
+        super("Незнайка");
     }
     public void say(Difficult Enum, String Case) {
         if (Case == " сказал, что будет")

@@ -8,13 +8,12 @@ public class Main {
         Misfortune misfortune = new Misfortune("беды");
         Ponchik ponchik = new Ponchik("Пончика");
         Responsibility responsibility = new Responsibility("обязанность");
-        Responsibility responsibility1 = new Responsibility("обязанностью кассира");
-        Responsibility responsibility2 = new Responsibility("обязанностью казначея");
-        Responsibility responsibility3 = new Responsibility("обязанностью председателя");
-//        Responsibility money = new Responsibility("деньги");
+        Responsibility kassir = new Responsibility("обязанностью кассира");
+        Responsibility kaznachey = new Responsibility("обязанностью казначея");
+        Responsibility predsedatel = new Responsibility("обязанностью председателя");
         Responsibility meetings = new Responsibility("заседания акционерного общества");
         Miga miga = new Miga("Мига");
-        Miga julio = new Miga("Жулио");
+        Julio julio = new Julio("Жулио");
 
         neznayka.say(Difficult.NONE, " сказал, что будет");
         korotishka.satisfy(Difficult.ENOUGH);
@@ -25,10 +24,8 @@ public class Main {
         ponchik.decide(Difficult.ONTHIS, Difficult.AFTERTHAT);
         neznayka.say(Difficult.AGREEMENT, " был назначен кассиром, ");
         miga.fix(miga.getName(), julio.getName());
-        responsibility.was(responsibility1.getName(), responsibility2.getName(), responsibility3.getName(), meetings.getName());
+        responsibility.was(kassir.getName(), kaznachey.getName(), predsedatel.getName(), meetings.getName());
         responsibility.fix(Difficult.NONE);
-
-
 
     }
 }

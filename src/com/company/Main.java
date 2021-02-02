@@ -11,6 +11,14 @@ public class Main {
         Responsibility meetings = new Responsibility("заседания акционерного общества ");
         Miga miga = new Miga();
         Julio julio = new Julio();
+        Film film = new Film();
+        FilmStudio filmStudio = new FilmStudio("киностудией");
+        Pact pact = new Pact("договор");
+        FilmStudio.Astronaut astronaut = new FilmStudio.Astronaut();
+
+        film.toDoSmth(Difficult.BESIDES);
+        filmStudio.negotiate(miga.getName(), julio.getName(), pact.getName(), filmStudio.getName());
+        astronaut.arrive(film.getName(), astronaut.getName());
 
         neznayka.say(Difficult.NONE, " сказал, что будет");
         korotishka.satisfy(Difficult.ENOUGH);

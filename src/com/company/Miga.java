@@ -10,4 +10,5 @@ public class Miga extends Krol{
     }
 
 
+
 }

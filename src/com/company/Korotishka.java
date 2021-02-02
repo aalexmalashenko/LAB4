@@ -10,24 +10,8 @@ public class Korotishka extends Krol implements Duties {
         System.out.print(Enum.getDifficult() + "доволен");
     }
 
-    public void getPreposition(Prepositions Enum) {
-        switch (Enum) {
-            case ON:
-                System.out.print(" на ");
-                break;
-            case FOR:
-                System.out.print(" для ");
-                break;
-            case FROM:
-                System.out.print(" от ");
-                break;
-            case IF:
-                System.out.print(", если ");
-                break;
-        }
-    }
+
     public void mince(Prepositions Enum, String whom){
-        getPreposition(Enum);
-        System.out.print("лунных " + whom);
+        System.out.print(Enum.getPreps() + "лунных " + whom);
     }
 }

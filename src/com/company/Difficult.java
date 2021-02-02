@@ -5,6 +5,8 @@ public enum Difficult {
     AFTERTHAT(", после чего "),
     ONTHIS(". На этом "),
     AGREEMENT(" С общего согласия "),
+    BESIDES("Помимо "),
+    AGAIN("снова"),
     NONE("");
     public final String Enum;
     Difficult(String Enum){

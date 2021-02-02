@@ -7,8 +7,7 @@ public class Korotishka extends Krol implements Duties {
 
     @Override
     public void satisfy(Difficult Enum){
-        getDifficult(Enum);
-        System.out.print("доволен");
+        System.out.print(Enum.getDifficult() + "доволен");
     }
 
     public void getPreposition(Prepositions Enum) {

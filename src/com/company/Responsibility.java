@@ -11,7 +11,6 @@ public class Responsibility extends Krol implements ToFix {
     }
     @Override
     public void fix(Difficult Enum){
-        getDifficult(Enum);
-        System.out.print("для решения неотложных вопросов.");
+        System.out.print(Enum.getDifficult() + "для решения неотложных вопросов.");
     }
 }

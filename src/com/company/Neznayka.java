@@ -8,8 +8,7 @@ public class Neznayka extends Krol{
         if (Case == " сказал, что будет")
             System.out.print(getName() + Case);
         else if (Case == " был назначен кассиром, ") {
-            getDifficult(Enum);
-            System.out.print(getName() + Case);
+            System.out.print(Enum.getDifficult() + getName() + Case);
         }
     }
 }

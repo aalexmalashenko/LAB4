@@ -8,7 +8,7 @@ public class Main {
         Misfortune misfortune = new Misfortune();
         Ponchik ponchik = new Ponchik();
         Responsibility responsibility = new Responsibility("обязанность");
-        Responsibility meetings = new Responsibility("заседания акционерного общества");
+        Responsibility meetings = new Responsibility("заседания акционерного общества ");
         Miga miga = new Miga();
         Julio julio = new Julio();
 
